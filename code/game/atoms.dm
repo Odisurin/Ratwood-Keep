@@ -96,7 +96,7 @@
 	var/light_system = STATIC_LIGHT
 	///Bitflags to determine lighting-related atom properties.
 	var/light_flags = NONE
-	
+
 
 /**
   * Called when an atom is created in byond (built in engine proc)

@@ -27,6 +27,7 @@
 		/obj/item/natural/cloth = 2,
 	)
 
+	ADD_TRAIT(H, TRAIT_STEELHEARTED, "[type]")
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/combat/knives, 3, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/combat/wrestling, 2, TRUE)
